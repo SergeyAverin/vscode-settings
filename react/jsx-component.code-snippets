@@ -1,0 +1,22 @@
+{
+	"jsx-component": {
+		"prefix": [
+			"c",
+			"component"
+		],
+		"body": [
+			"import React from 'react';",
+			"",
+			"",
+			"export const $1: React.FC = () => {",
+			"    return (",
+			"        <>",
+			"            $0",
+			"        </>",
+			"     );",
+			"};",
+			"",
+		],
+		"description": "Create react component"
+	},
+}

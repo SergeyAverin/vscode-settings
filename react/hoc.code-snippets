@@ -1,0 +1,20 @@
+{
+	"Create HOC": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "hoc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"export function with$1(WrappedComponent: React.FC) {",
+			"  return function With$1() {",
+			"    return (",
+			"      <>",
+			"        <WrappedComponent />",
+			"      </>",
+			"    );",
+			"  };",
+			"}"
+		],
+		"description": "Create HOC"
+	}
+}

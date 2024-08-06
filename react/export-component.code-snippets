@@ -1,0 +1,9 @@
+{
+	"export-defautl-component": {
+		"prefix": "ex",
+		"body": [
+			"export { $1 as default } from './$1';"
+		],
+		"description": "Log output to console"
+	}
+}
