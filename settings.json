@@ -1,0 +1,151 @@
+{
+  
+    //Spell checker
+    "cSpell.language": "en",
+    "cSpell.userWords": [
+      "rgba",
+      "Minio",
+      "gensalt",
+      "hashpw",
+      "bson",
+      "checkpw",
+      "reduxjs",
+      "мусорке",
+      "unfollow",
+      "ASGI",
+      "tortoise",
+      "pymongo",
+      "роуты",
+      "aiogram",
+      "tonconnect",
+      "configurate",
+      "uvicorn",
+      "loguru",
+      "SOCKETIO",
+      "autodocs",
+      "sqlalchemy",
+      "drivername",
+      "sessionmaker",
+      "asyncpg",
+      "fastapi",
+      "engine",
+      "psycopg2",
+      "hocs",
+      "pydantic",
+      "levelno",
+      "telebot",
+      "firestore",
+      "testid",
+      "aiohttp",
+      "токене",
+      "токеном"
+    ],
+    "cSpell.enableFiletypes": ["py", "jsx", "tsx", "ts", "js", "scss", "sass"],
+  
+    "editor.unicodeHighlight.allowedCharacters": {
+      "а": true,
+      "с": true,
+      "Т": true,
+      "б": true,
+      "е": true
+    },
+  // Tabs
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "editor.tabSize": 4,
+
+  "editor.smoothScrolling": true,
+
+  // Прокручивать нижи последней строки
+  "editor.scrollBeyondLastLine": true,
+
+  // Подсветка табов и пробелов
+  "editor.detectIndentation": true,
+
+  // Мульти курсор
+  "editor.multiCursorModifier": "alt",
+  "editor.linkedEditing": true,
+
+  // Auto closing tags
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+
+  //Управляет выделением символов, которые можно спутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользовательского языкового стандарта.
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+
+  // Задержка перед подскаской
+  "editor.quickSuggestionsDelay": 0,
+
+  ////////////////////////////
+  //      Внешний вид      //
+  ///////////////////////////
+
+  // Отступы слева от номера строки
+  "editor.glyphMargin": true,
+  // Отступы справа от номера строки
+  "editor.folding": true,
+
+  // Скрыть скролл
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+
+  // Тема иконок инструментов
+  "workbench.productIconTheme": "fluent-icons",
+
+  // Уменьшить вкладки
+  "window.density.editorTabHeight": "compact",
+
+  // Переносит панель инструментов
+  "workbench.activityBar.location": "top",
+
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  // Cursor
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+
+  // Font
+  "editor.fontLigatures": true,
+  // "editor.fontFamily": "Operator mono lig, Iosevka NFM, JetBrains Mono, Monaspace Neon, Maple Mono, MonoLisa, Ubuntu Mono, DejaVu Sans Mono, Fira Code, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono, monospace",
+  // "editor.inlayHints.fontFamily": "PragmataPro",
+
+  // emmet
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "javascript": "javascriptreact"
+  },
+
+  // Проводник
+  // Отключить сворачивание пустых папок
+  "explorer.compactFolders": false,
+  "workbench.editor.tabSizing": "shrink",
+
+  // Wrapping
+  // Автоматически перенос строку
+  "editor.wordWrap": "bounded",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn":  105,
+
+  "[ansible]": {
+    "breadcrumbs.showArrays": true,
+    "breadcrumbs.showBooleans": true,
+    "breadcrumbs.showClasses": true
+  },
+
+  "editor.fontSize": 14,
+
+  "editor.gotoLocation.multipleDeclarations": "goto"
+}
