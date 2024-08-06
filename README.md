@@ -17,3 +17,5 @@ In linux\
 **hook** - create react hook
 ### Mobx
 **m** - create class with mobx store
+### StoryBook
+**story** - create story
