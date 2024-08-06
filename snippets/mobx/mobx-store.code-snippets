@@ -1,0 +1,17 @@
+{
+	"create-mobx-store": {
+		"prefix": "m",
+		"body": [
+			"import { makeAutoObservable } from 'mobx';",
+			"",
+			"class $1Store {",
+			"  constructor() {",
+			"    makeAutoObservable(this);",
+			"  }$0",
+			"}",
+			"",
+			"export default new  $1Store();"
+		],
+		"description": "Create mobx store"
+	}
+}
