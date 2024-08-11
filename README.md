@@ -19,3 +19,6 @@ In linux\
 **m** - create class with mobx store
 ### StoryBook
 **story** - create story
+### Stylecomponent
+**s** - create style component
+**sp** - create style component with props
