@@ -1,0 +1,14 @@
+{
+	"create-style-component": {
+		"prefix": "s",
+		"body": [
+			"import styled from \"styled-components\";",
+			"",
+			"export const $1 = styled.div`",
+			"  $0",
+			"`;",
+			""
+		],
+		"description": "Create stylecomonent"
+	}
+}

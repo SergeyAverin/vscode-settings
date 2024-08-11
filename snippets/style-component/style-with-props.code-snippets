@@ -1,0 +1,18 @@
+{
+	"create-style-component-with-props": {
+		"prefix": "sp",
+		"body": [
+			"import styled from \"styled-components\";",
+			"",
+			"export interface I$1Props {",
+			"  $2",
+			"}",
+			"",
+			"export const $1 = styled.div<I$1Props>`",
+			"  $0",
+			"`;",
+			""
+		],
+		"description": "Create stylecomponent with props"
+	}
+}
