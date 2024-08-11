@@ -1,0 +1,29 @@
+{
+	"Create provide": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "provider",
+		"body": [
+			"import React, { createContext, useContext, useState } from \"react\";",
+			"",
+			"interface I$1Context {",
+			"  $2;",
+			"}",
+			"",
+			"const $1Context = createContext<I$1Context>({});",
+			"",
+			"interface I$1ProviderProps {",
+			"  children: React.ReactNode;",
+			"}",
+			"",
+			"const $1Provider: React.FC<I$1ProviderProps> = ({ children }) => {",
+			"  return <$1Context.Provider value={$0}>{children}</$1Context.Provider>;",
+			"};",
+			"",
+			"const use$1 = () => useContext($1Context);",
+			"",
+			"export { $1Context, $1Provider, use$1 };",
+			"",
+		],
+		"description": "Create provider"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"React Portal": {
+		"prefix": "portal",
+		"body": [
+			"import React from \"react\";",
+			"import ReactDOM from \"react-dom\";",
+			"",
+			"const $1Component: React.FC = () => {",
+			"  return <div>$0</div>;",
+			"};",
+			"",
+			"export const $1Portal = () => {",
+			"  return ReactDOM.createPortal(",
+			"    <$1Component />,",
+			"    document.querySelector(\"$2\") as Element",
+			"  );",
+			"};",
+			"",
+		],
+		"description": "Create React Portal"
+	}
+}

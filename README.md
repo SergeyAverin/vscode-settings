@@ -14,7 +14,9 @@ In linux\
 **icc** - react component with interface props and children\
 **ex** - export defautl react compont\
 **hoc** - create react hoc\
-**hook** - create react hook
+**hook** - create react hook\
+**provider** - create provider\
+**portal** - create portal\
 ### Mobx
 **m** - create class with mobx store
 ### StoryBook
