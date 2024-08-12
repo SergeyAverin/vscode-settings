@@ -1,0 +1,10 @@
+{
+	"Create rtk selector": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "sel",
+		"body": [
+			"export const $1Selector = (state: RootState) => state.$1;",
+		],
+		"description": "Create RTK selector"
+	}
+}

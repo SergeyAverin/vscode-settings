@@ -30,3 +30,4 @@ In linux\
 **rm** - create rtk mutation
 **rs** - create rtk slice
 **rr** - create rtk reduce
+**sel** - create selector
