@@ -1,0 +1,12 @@
+{
+	"Create rtk reduce": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "rr",
+		"body": [
+			"$1(state, actions: PayloadAction) {",
+			"  $0",
+			"},",
+		],
+		"description": "Create RTK reduce"
+	}
+}

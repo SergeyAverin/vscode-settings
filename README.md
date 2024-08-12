@@ -28,3 +28,5 @@ In linux\
 **ra** - create api
 **rq** - create rtk query
 **rm** - create rtk mutation
+**rs** - create rtk slice
+**rr** - create rtk reduce

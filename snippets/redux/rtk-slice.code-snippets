@@ -1,0 +1,26 @@
+{
+	"Create rtk slice": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "rs",
+		"body": [
+			"import { createSlice } from \"@reduxjs/toolkit\";",
+			"import type { PayloadAction } from \"@reduxjs/toolkit\";",
+			"",
+			"interface I$1State {}",
+			"",
+			"const initialState: I$1State = {};",
+			"",
+			"export const $1Slice = createSlice({",
+			"  name: \"$1\",",
+			"  initialState,",
+			"  reducers: {",
+			"    $0",
+			"  },",
+			"});",
+			"",
+			"export const {} = $1Slice.actions;",
+			"",
+		],
+		"description": "Create RTK slice"
+	}
+}
