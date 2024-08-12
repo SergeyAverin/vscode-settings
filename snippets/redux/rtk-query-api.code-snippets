@@ -1,0 +1,19 @@
+{
+	"Create rtk query api": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "ra",
+		"body": [
+			"import { baseApi } from \"../baseApi\";",
+			"",
+			"export const $1Api = baseApi.injectEndpoints({",
+			"  endpoints: (builder) => ({",
+			"    $0",
+			"  }),",
+			"});",
+			"",
+			"export const { } = $1Api;",
+			"",
+		],
+		"description": "Create RTK query api"
+	}
+}
