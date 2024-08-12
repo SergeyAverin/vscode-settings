@@ -24,3 +24,7 @@ In linux\
 ### Stylecomponent
 **s** - create style component
 **sp** - create style component with props
+### RTK
+**ra** - create api
+**rq** - create rtk query
+**rm** - create rtk mutation

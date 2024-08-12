@@ -1,0 +1,19 @@
+{
+	"Create rtk mutation": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "rm",
+		"body": [
+			"$1: builder.mutation({",
+			"  query(userId) {",
+			"    return {",
+			"      url: `$2`,",
+			"      method: \"POST\",",
+			"      body: userId,",
+			"    };",
+			"  },",
+			"}),",
+			"$0"
+		],
+		"description": "Create RTK mutation"
+	}
+}

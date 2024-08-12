@@ -1,0 +1,19 @@
+{
+	"Create rtk query": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "rq",
+		"body": [
+			"$1: builder.query({",
+			"  query() {",
+			"    return {",
+			"      url: `$2`,",
+			"      method: \"GET\",",
+			"    };",
+			"  },",
+			"  providesTags: [],",
+			"}),",
+			"$0"
+		],
+		"description": "Create RTK query"
+	}
+}
