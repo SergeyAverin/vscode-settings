@@ -31,3 +31,7 @@ In linux\
 **rs** - create rtk slice
 **rr** - create rtk reduce
 **sel** - create selector
+### Logging
+l - console.log() in js ts
+l - logger.debug() in python
+p - print() 
