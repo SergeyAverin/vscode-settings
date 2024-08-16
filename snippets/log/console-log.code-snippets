@@ -1,0 +1,10 @@
+{
+	"Write console log": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "l",
+		"body": [
+			"console.log($1)",
+		],
+		"description": "Write console log"
+	}
+}

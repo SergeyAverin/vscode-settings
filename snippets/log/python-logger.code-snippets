@@ -1,0 +1,10 @@
+{
+	"Write debug logger": {
+		"scope": "python",
+		"prefix": "l",
+		"body": [
+			"logger.debug($1)",
+		],
+		"description": "Write debug logger"
+	}
+}
